@@ -205,7 +205,7 @@ def main(file_arg):
                                     os.remove(os.path.join(temp,"out")+".dec")
                                 else:
                                     WzipObj.write(os.path.join(temp,"out"), orgfilename)
-                                    os.remove(os.path.join(temp,"out"))
+                                    #os.remove(os.path.join(temp,"out"))
                     rmrf(temp)
                     print("DONE... file decrypted to: "+outzip)
                     return 0
